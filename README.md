@@ -6,7 +6,8 @@
 ---
 
 🚨 Problème
-La conformité incendie dans les ERP est :
+** La conformité incendie dans les ERP est **:
+
 Complexe et chronophage
 Sujette aux erreurs humaines
 Basée sur des textes réglementaires lourds
