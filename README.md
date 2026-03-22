@@ -1,180 +1,178 @@
 # 🔥 FireMind ERP   
-
-**AI-powered Fire Safety Compliance Assistant for Public Buildings (ERP)**  
-**Assistant intelligent de conformité en sécurité incendie pour les Établissements Recevant du Public (ERP)**  
+ 
+AI‑powered Fire Safety Compliance Assistant for Public Buildings (ERP)
+Assistant intelligent de conformité incendie pour les Établissements Recevant du Public (ERP)
 
 ---
 
-## 🚨 Problem  
-## 🚨 Problème  
-
-Fire safety compliance in ERP (Établissements Recevant du Public) is:  
-La conformité en sécurité incendie dans les ERP (Établissements Recevant du Public) est :  
-
-* Complex and time-consuming  
-* Complexe et chronophage  
-
-* Prone to human error  
-* Sujette aux erreurs humaines  
-
-* Based on dense regulatory documents  
-* Basée sur des documents réglementaires denses  
-
-* Difficult to standardize across projects  
-* Difficile à standardiser entre différents projets  
-
-Engineers, architects, and control offices spend hours verifying compliance manually.  
-Les ingénieurs, architectes et bureaux de contrôle passent des heures à vérifier la conformité manuellement.  
+🚨 Problème
+La conformité incendie dans les ERP est :
+Complexe et chronophage
+Sujette aux erreurs humaines
+Basée sur des textes réglementaires lourds
+Difficile à standardiser
+Coûteuse pour les bureaux d’études et organismes de contrôle
+Les professionnels passent des heures à vérifier manuellement les règles et rédiger des rapports.
 
 ---
 
 ## 💡 Solution    
 
-**FireMind ERP** is an intelligent platform that:  
-**FireMind ERP** est une plateforme intelligente qui :  
+FireMind ERP est une plateforme intelligente qui automatise et simplifie la conformité incendie.
 
-* Automatically generates applicable fire safety regulations  
-* Génère automatiquement les réglementations incendie applicables  
+Elle permet :
 
-* Assists engineers in compliance verification  
-* Assiste les ingénieurs dans la vérification de conformité  
+Génération automatique des règles applicables
 
-* Detects non-conformities  
-* Détecte les non-conformités  
+Checklists d’audit intelligentes
 
-* Generates ready-to-use safety reports  
-* Génère des rapports de sécurité prêts à l’emploi  
+Détection des non‑conformités
 
----
+Génération de rapports PDF professionnels
 
-## ⚙️ Key Features  
-## ⚙️ Fonctionnalités principales  
+Mode inspection mobile
 
-### 🧠 Smart Regulation Engine  
-### 🧠 Moteur intelligent de réglementation  
+Gestion documentaire centralisée
 
-* Input: ERP type, surface, occupancy, floors  
-* Entrées : type d’ERP, surface, capacité d’accueil, nombre d’étages  
-
-* Output: Applicable fire safety rules  
-* Sortie : règles de sécurité incendie applicables  
+Alertes pour les échéances et inspections
 
 ---
 
-### 📋 Intelligent Audit System  
-### 📋 Système d’audit intelligent  
+⚙️ Fonctionnalités principales
+🧠 Moteur intelligent de réglementation
+Entrées : type ERP, surface, effectif, étages
 
-* Checklist generated dynamically  
-* Checklist générée dynamiquement  
+Sorties : règles applicables
 
-* Conform / Non-conform validation  
-* Validation conforme / non conforme  
+Matching dynamique (JSON/YAML)
 
-* Comments & observations  
-* Commentaires et observations  
+Détection automatique des non‑conformités
 
----
+📋 Système d’audit intelligent
+Checklist générée dynamiquement
 
-### 📄 Automated Report Generation  
-### 📄 Génération automatique de rapports  
+Validation conforme / non conforme
 
-* Professional PDF reports  
-* Rapports PDF professionnels  
+Observations, commentaires, photos
 
-* Ready for safety commissions  
-* Prêts pour les commissions de sécurité  
+Mode inspection hors‑ligne
 
----
+📄 Génération automatique de rapports
+Rapports PDF professionnels
 
-### 📸 Field Inspection Mode  
-### 📸 Mode inspection terrain  
+Compatibles commissions de sécurité
 
-* Mobile-friendly interface  
-* Interface adaptée aux mobiles  
+Score de conformité, photos, recommandations
 
-* Photo capture & annotations  
-* Prise de photos et annotations  
+📸 Mode inspection terrain
+Interface mobile
 
----
+Capture photo & annotation
 
-### 📊 Compliance Dashboard  
-### 📊 Tableau de bord de conformité  
+Marquage rapide des non‑conformités
 
-* Global compliance score  
-* Score global de conformité  
+📊 Tableau de bord de conformité
+Score global
 
-* Risk prioritization  
-* Priorisation des risques  
+Priorisation des risques
 
----
+Gestion multi‑sites
 
-## 🏗️ Tech Stack  
-## 🏗️ Stack technique  
+🏗️ Architecture technique
+Stack technique
+Backend : Python (FastAPI) ou C# (.NET)
 
-* **Backend:** Python (FastAPI) / C# (.NET)  
-* **Backend :** Python (FastAPI) / C# (.NET)  
+Frontend : React ou Blazor
 
-* **Frontend:** React / Blazor  
-* **Frontend :** React / Blazor  
+Base de données : PostgreSQL
 
-* **Database:** PostgreSQL  
-* **Base de données :** PostgreSQL  
+Autres : OCR, générateur PDF, reconnaissance d’images 
 
-* **Other:** OCR / PDF Generator  
-* **Autres :** OCR / Générateur PDF  
+Architecture système 
+┌──────────────────────┐       ┌──────────────────────────┐
+│      Frontend        │ <---->│        API Backend        │
+│ React / Blazor       │       │ FastAPI / .NET            │
+└──────────────────────┘       └───────────────┬───────────┘
+                                                │
+                                      ┌─────────▼───────────┐
+                                      │     PostgreSQL DB    │
+                                      └──────────────────────┘
 
----
+🗂️ Modèle de données
+Tables principales 
 
-## 🎯 Target Users  
-## 🎯 Utilisateurs cibles  
 
-* Engineering offices  
-* Bureaux d’études  
+Table	                      Description
+Users	                      Rôles : admin, contrôleur, manager
+Establishments	            Type ERP, surface, effectif, adresse
+Audits	                    Checklist, conformité, photos, observations
+Documents	                  Plans, certificats, rapports
+Alerts	                    Échéances, inspections, renouvellement matériel
 
-* Fire safety consultants  
-* Consultants en sécurité incendie  
 
-* Architects  
-* Architectes  
+Exemple de règle 
 
-* Control organizations (e.g. SOCOTEC, Bureau Veritas)  
-* Organismes de contrôle (ex : SOCOTEC, Bureau Veritas)  
+{
+  "erp_type": "M",
+  "rules": [
+    { "id": "EXT-01", "description": "1 extincteur pour 200 m²", "severity": "medium" },
+    { "id": "EVAC-03", "description": "2 issues de secours minimum", "severity": "high" }
+  ]
+}
 
----
+🧪 Exemple d’audit 
 
-## 🚀 Roadmap  
-## 🚀 Feuille de route  
+ERP : Type M – Surface 850 m² – 2 niveaux
+Conformité globale : 78%
 
-* [ ] MVP: Rule engine + audit  
-* [ ] MVP : moteur de règles + audit  
+❌ Non‑conformités détectées :
+- EXT‑01 : Nombre d’extincteurs insuffisant
+- SIG‑04 : Absence de signalisation lumineuse
 
-* [ ] PDF report generation  
-* [ ] Génération de rapports PDF  
+📄 Rapport généré : report_erp_m_2024_03.pdf
 
-* [ ] Multi-project management  
-* [ ] Gestion multi-projets  
 
-* [ ] Mobile inspection mode  
-* [ ] Mode inspection mobile  
+🚀 Feuille de route
+MVP
+Moteur de règles
 
-* [ ] AI-assisted compliance  
-* [ ] Conformité assistée par IA  
+Système d’audit
 
----
+Génération PDF
 
-## 📌 Vision   
+Prochaines étapes
+Gestion multi‑projets
 
-To become the **reference compliance assistant** for fire safety regulations in ERP across Europe.  
-Devenir **l’assistant de référence** pour la conformité aux réglementations incendie des ERP en Europe.  
+Mode inspection mobile
 
----
+Conformité assistée par IA
 
-## 📷 Demo (coming soon)  
-## 📷 Démo (bientôt disponible)  
+Reconnaissance d’images
 
----
+Carte interactive d’évacuation
 
-## 👤 Author  
+🎯 Utilisateurs cibles
+Bureaux d’études
+
+Consultants en sécurité incendie
+
+Architectes
+
+Organismes de contrôle (SOCOTEC, Bureau Veritas, APAVE…) 
+
+🧭 Installation (dev)
+Backend 
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+Frontend
+npm install
+npm run dev
+
+📌 Vision
+Devenir l’assistant IA de référence pour la conformité incendie des ERP en Europe. 
+
+## 👤 Auteur 
 
 Hamza Abdelli  
 Embedded Systems & Autonomous Engineering Student  
