@@ -9,11 +9,17 @@
 ** La conformité incendie dans les ERP est **:
 
 **Complexe et chronophage **
+
 **Sujette aux erreurs humaines**
+
 **Basée sur des textes réglementaires lourds**
+
 **Difficile à standardiser**
+
 **Coûteuse pour les bureaux d’études et organismes de contrôle**
+
 **Les professionnels passent des heures à vérifier manuellement les règles et rédiger des rapports.**
+
 
 ---
 
