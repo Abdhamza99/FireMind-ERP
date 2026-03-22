@@ -8,48 +8,50 @@
 🚨 Problème
 ** La conformité incendie dans les ERP est **:
 
-Complexe et chronophage
-Sujette aux erreurs humaines
-Basée sur des textes réglementaires lourds
-Difficile à standardiser
-Coûteuse pour les bureaux d’études et organismes de contrôle
-Les professionnels passent des heures à vérifier manuellement les règles et rédiger des rapports.
+**Complexe et chronophage **
+**Sujette aux erreurs humaines**
+**Basée sur des textes réglementaires lourds**
+**Difficile à standardiser**
+**Coûteuse pour les bureaux d’études et organismes de contrôle**
+**Les professionnels passent des heures à vérifier manuellement les règles et rédiger des rapports.**
 
 ---
 
 ## 💡 Solution    
 
-FireMind ERP est une plateforme intelligente qui automatise et simplifie la conformité incendie.
+**FireMind ERP est une plateforme intelligente qui automatise et simplifie la conformité incendie.**
 
 Elle permet :
 
-Génération automatique des règles applicables
+**Génération automatique des règles applicables**
 
-Checklists d’audit intelligentes
+**Checklists d’audit intelligentes**
 
-Détection des non‑conformités
+**Détection des non‑conformités**
 
-Génération de rapports PDF professionnels
+**Génération de rapports PDF professionnels**
 
-Mode inspection mobile
+**Mode inspection mobile**
 
-Gestion documentaire centralisée
+**Gestion documentaire centralisée**
 
-Alertes pour les échéances et inspections
+**Alertes pour les échéances et inspections**
 
 ---
 
 ⚙️ Fonctionnalités principales
+
 🧠 Moteur intelligent de réglementation
-Entrées : type ERP, surface, effectif, étages
 
-Sorties : règles applicables
+**Entrées : type ERP, surface, effectif, étages**
 
-Matching dynamique (JSON/YAML)
+**Sorties : règles applicables**
 
-Détection automatique des non‑conformités
+**Matching dynamique (JSON/YAML)**
 
-📋 Système d’audit intelligent
+**Détection automatique des non‑conformités**
+
+**📋 Système d’audit intelligent**
 Checklist générée dynamiquement
 
 Validation conforme / non conforme
