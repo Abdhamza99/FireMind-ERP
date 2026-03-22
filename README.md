@@ -1,7 +1,7 @@
 # 🔥 FireMind ERP   
- 
-AI‑powered Fire Safety Compliance Assistant for Public Buildings (ERP)
-Assistant intelligent de conformité incendie pour les Établissements Recevant du Public (ERP)
+**AI-powered Fire Safety Compliance Assistant for Public Buildings (ERP)**  
+**Assistant intelligent de conformité en sécurité incendie pour les Établissements Recevant du Public (ERP)**  
+
 
 ---
 
